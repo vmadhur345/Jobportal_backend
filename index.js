@@ -22,7 +22,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser())
 const corsOptions = {
-    origin: ['https://job-find-post.netlify.app', 'http://localhost:5173'],
+    origin: ['https://guileless-cucurucho-62b112.netlify.app', 'http://localhost:5173'],
     credentials:true
 }
 app.use(cors(corsOptions))

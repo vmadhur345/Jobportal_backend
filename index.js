@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin: ['http://localhost:5173', 'https://effervescent-taiyaki-eab2e6.netlify.app/'],
+    origin: ['http://localhost:5173', 'https://effervescent-taiyaki-eab2e6.netlify.app'],
     credentials: true,
 };
 
